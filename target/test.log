@@ -679,3 +679,87 @@
 28 Mar 2020 20:09:28,886 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
 28 Mar 2020 20:09:28,887 INFO  repository.JdbcUtils 25 getNewConnection - user: null
 28 Mar 2020 20:09:28,887 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 20:12:55,715 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:12:55,720 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:12:55,722 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:12:55,724 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:12:55,726 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 20:12:55,726 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 20:12:55,726 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 20:12:55,726 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 20:12:55,726 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 20:12:55,726 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 20:12:56,250 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1169a00)
+28 Mar 2020 20:12:56,254 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 20:12:56,254 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 20:12:56,254 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 20:12:56,255 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 20:12:56,255 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 20:12:56,255 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 20:12:56,255 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 20:12:56,256 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@11620c)
+28 Mar 2020 20:12:56,257 TRACE repository.JdbcRepositoryProba 33 size - Exit with(3)
+28 Mar 2020 20:12:56,257 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 20:12:56,257 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 20:12:56,257 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 20:12:56,257 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 20:12:56,257 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 20:12:56,258 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 20:12:56,259 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 20:12:56,259 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(3)
+28 Mar 2020 20:13:07,138 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:13:07,142 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:13:07,144 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:13:07,145 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:13:07,147 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 20:13:07,147 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 20:13:07,147 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 20:13:07,148 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 20:13:07,148 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 20:13:07,148 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 20:13:07,683 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f5ef34)
+28 Mar 2020 20:13:07,687 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 20:13:07,687 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 20:13:07,687 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 20:13:07,687 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 20:13:07,687 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 20:13:07,687 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 20:13:07,687 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 20:13:07,688 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@7858d7)
+28 Mar 2020 20:13:07,689 TRACE repository.JdbcRepositoryProba 33 size - Exit with(3)
+28 Mar 2020 20:13:07,689 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 20:13:07,690 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 20:13:07,690 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 20:13:07,690 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 20:13:07,690 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 20:13:07,690 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 20:13:07,691 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 20:13:07,692 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(3)
+28 Mar 2020 20:15:00,739 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:15:00,744 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:15:00,746 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:15:00,748 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 20:15:00,750 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 20:15:00,750 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 20:15:00,750 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 20:15:00,750 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 20:15:00,751 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 20:15:00,751 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 20:15:01,302 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1b5c12b)
+28 Mar 2020 20:15:01,305 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 20:15:01,306 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 20:15:01,306 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 20:15:01,306 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 20:15:01,306 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 20:15:01,306 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 20:15:01,306 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 20:15:01,307 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1fdbec4)
+28 Mar 2020 20:15:01,308 TRACE repository.JdbcRepositoryProba 33 size - Exit with(3)
+28 Mar 2020 20:15:01,308 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 20:15:01,308 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 20:15:01,309 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 20:15:01,309 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 20:15:01,309 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 20:15:01,309 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 20:15:01,310 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1a6d7ba)
+28 Mar 2020 20:15:01,311 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(3)
