@@ -55,7 +55,7 @@ public class MainJavaFX extends Application {
             FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/login.fxml"));
             AnchorPane anchorPane = fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setScene(new Scene(anchorPane));
+            stage.setScene(new Scene(anchorPane,250 ,250));
             LoginController controllerLogin = fxmlLoader.getController();
             controllerLogin.setService(service,stage);
             stage.show();
