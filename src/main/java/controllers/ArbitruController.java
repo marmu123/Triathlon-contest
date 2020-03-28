@@ -111,7 +111,7 @@ public class ArbitruController {
         alergareTableColumnPunctaj.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<Participant, String>, ObservableValue<String>>() {
             @Override
             public ObservableValue<String> call(TableColumn.CellDataFeatures<Participant, String> param) {
-                return new SimpleStringProperty(Double.toString(service.getPunctajParticipantPentruOProba(param.getValue().getNume(),"NATATIE")));
+                return new SimpleStringProperty(Double.toString(service.getPunctajParticipantPentruOProba(param.getValue().getNume(),"ALERGARE")));
             }
         });
         alergareTableView.setItems(alergareModel);
@@ -145,6 +145,7 @@ public class ArbitruController {
         }
         else {
             service.addRezultat(mainTableView.getSelectionModel().getSelectedItem().getNume(),arbitru.getName(),TipProba.valueOf(comboTipProba.getValue()),Double.parseDouble(textFieldNrPuncte.getText()));
+            initModel();
         }
 
 

@@ -125,14 +125,14 @@ public class JdbcRepositoryParticipant implements FilterRepositoryParticipant
         //logger.();
         Connection con=dbUtils.getConnection();
         List<Participant> participants=new ArrayList<>();
-        try(PreparedStatement preStmt=con.prepareStatement("select * from Participanti p" +
+        try(PreparedStatement preStmt=con.prepareStatement("select p.nume as [NUM] from Participanti p" +
                 " inner join Rezultate R on p.nume = R.idParticipant" +
                 " inner join Probe P2 on R.idProba = P2.id" +
                 " where P2.tipProba=?")) {
             preStmt.setString(1,tipProba.toString());
             try(ResultSet result=preStmt.executeQuery()) {
                 while (result.next()) {
-                    String nume = result.getString("nume");
+                    String nume = result.getString("NUM");
                     Participant participant=new Participant(nume);
                     participants.add(participant);
                 }

@@ -1584,3 +1584,1109 @@
 28 Mar 2020 21:17:18,540 TRACE repository.JdbcUtils 46 getConnection - Enter
 28 Mar 2020 21:17:18,541 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@c34926)
 28 Mar 2020 21:17:18,542 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:22:35,607 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:22:35,612 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:22:35,614 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:22:35,616 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:22:35,618 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 21:22:35,618 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:35,618 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:22:35,618 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:22:35,618 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:22:35,618 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:22:36,150 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1169a00)
+28 Mar 2020 21:22:36,153 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 21:22:36,154 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 21:22:36,154 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:36,154 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:22:36,154 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:22:36,154 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:22:36,154 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:22:36,155 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@11620c)
+28 Mar 2020 21:22:36,156 TRACE repository.JdbcRepositoryProba 33 size - Exit with(3)
+28 Mar 2020 21:22:36,156 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 21:22:36,156 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:36,156 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:22:36,156 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:22:36,156 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:22:36,157 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:22:36,157 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 21:22:36,158 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(3)
+28 Mar 2020 21:22:38,488 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:22:38,489 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,489 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1169a00)
+28 Mar 2020 21:22:38,491 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:22:38,556 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:22:38,556 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,557 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1169a00)
+28 Mar 2020 21:22:38,557 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:22:38,557 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,557 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:22:38,558 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:22:38,558 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:22:38,558 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:22:38,559 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@60dcac)
+28 Mar 2020 21:22:38,560 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:22:38,566 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,566 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@60dcac)
+28 Mar 2020 21:22:38,567 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:22:38,567 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,567 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@60dcac)
+28 Mar 2020 21:22:38,568 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:22:38,568 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,568 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@60dcac)
+28 Mar 2020 21:22:38,569 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([])
+28 Mar 2020 21:22:38,767 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,767 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 21:22:38,768 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:22:38,773 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,774 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 21:22:38,774 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:22:38,777 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,777 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 21:22:38,778 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:22:38,781 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,781 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 21:22:38,782 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(0.0)
+28 Mar 2020 21:22:38,835 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,835 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 21:22:38,836 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:22:38,838 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,838 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 21:22:38,839 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:22:38,842 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,842 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 21:22:38,843 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:22:38,863 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,863 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 21:22:38,864 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:22:38,866 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:22:38,867 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@15773ef)
+28 Mar 2020 21:22:38,867 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:23:03,920 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:23:03,925 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:23:03,927 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:23:03,928 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:23:03,930 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 21:23:03,930 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:03,930 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:23:03,930 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:23:03,931 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:23:03,931 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:23:04,469 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1aac3ae)
+28 Mar 2020 21:23:04,473 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 21:23:04,473 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 21:23:04,473 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:04,473 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:23:04,473 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:23:04,474 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:23:04,474 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:23:04,475 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3932)
+28 Mar 2020 21:23:04,475 TRACE repository.JdbcRepositoryProba 33 size - Exit with(3)
+28 Mar 2020 21:23:04,476 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 21:23:04,476 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:04,476 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:23:04,476 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:23:04,476 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:23:04,476 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:23:04,477 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:04,477 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(3)
+28 Mar 2020 21:23:07,049 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:23:07,050 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,050 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1aac3ae)
+28 Mar 2020 21:23:07,051 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:23:07,112 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:23:07,113 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,113 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1aac3ae)
+28 Mar 2020 21:23:07,113 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:23:07,113 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,114 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:23:07,114 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:23:07,114 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:23:07,114 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:23:07,115 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@12982d6)
+28 Mar 2020 21:23:07,116 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:23:07,122 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,123 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@12982d6)
+28 Mar 2020 21:23:07,123 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:23:07,124 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,124 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@12982d6)
+28 Mar 2020 21:23:07,124 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:23:07,124 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,124 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@12982d6)
+28 Mar 2020 21:23:07,125 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([])
+28 Mar 2020 21:23:07,284 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,285 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:07,286 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:23:07,291 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,291 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:07,292 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:23:07,294 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,294 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:07,295 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:23:07,297 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,297 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:07,298 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(0.0)
+28 Mar 2020 21:23:07,342 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,342 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:07,343 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:23:07,345 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,346 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:07,346 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:23:07,350 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,350 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:07,351 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:23:07,374 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,375 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:07,375 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:23:07,377 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:07,378 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:07,378 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:23:11,672 TRACE repository.JdbcRepositoryProba 46 save - Enter saving proba Proba{id=0, numeArbitru='a', tipProba=ALERGARE} 
+28 Mar 2020 21:23:11,672 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,673 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3932)
+28 Mar 2020 21:23:11,679 TRACE repository.JdbcRepositoryRezultat 47 save - Enter saving rezultat Rezultat{id=9=nume3, numarPuncte=11.0} 
+28 Mar 2020 21:23:11,680 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,680 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,686 TRACE repository.JdbcRepositoryRezultat 58 save - Exit
+28 Mar 2020 21:23:11,686 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,686 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@12982d6)
+28 Mar 2020 21:23:11,686 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:23:11,687 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,687 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@12982d6)
+28 Mar 2020 21:23:11,688 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:23:11,688 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,688 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@12982d6)
+28 Mar 2020 21:23:11,688 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:23:11,689 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,689 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@12982d6)
+28 Mar 2020 21:23:11,689 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume3'}])
+28 Mar 2020 21:23:11,691 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,691 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,692 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:23:11,692 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,692 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,692 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:23:11,693 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,693 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,693 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:23:11,694 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,694 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,695 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:23:11,695 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,695 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,696 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:23:11,696 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,696 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,696 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:23:11,697 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,697 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,697 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:23:11,698 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,698 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,698 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:23:11,698 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,699 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,699 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:23:11,702 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,703 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,704 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,705 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,719 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,719 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,720 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:23:11,720 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,720 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,720 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:23:11,721 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,721 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,721 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:23:11,722 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,722 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,722 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:23:11,722 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,722 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,723 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:23:11,723 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,723 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,723 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:23:11,726 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,726 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,727 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:23:11,727 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,727 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,727 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:23:11,728 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:23:11,728 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:23:11,728 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:28:49,385 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:28:49,390 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:28:49,391 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:28:49,393 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:28:49,394 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 21:28:49,395 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:49,395 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:28:49,395 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:28:49,395 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:28:49,395 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:28:49,935 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f5ef34)
+28 Mar 2020 21:28:49,939 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 21:28:49,939 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 21:28:49,939 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:49,939 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:28:49,940 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:28:49,940 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:28:49,940 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:28:49,940 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@7858d7)
+28 Mar 2020 21:28:49,941 TRACE repository.JdbcRepositoryProba 33 size - Exit with(4)
+28 Mar 2020 21:28:49,941 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 21:28:49,942 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:49,942 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:28:49,942 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:28:49,942 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:28:49,942 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:28:49,943 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:49,943 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(4)
+28 Mar 2020 21:28:53,240 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:28:53,240 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,241 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f5ef34)
+28 Mar 2020 21:28:53,242 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:28:53,305 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:28:53,306 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,306 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f5ef34)
+28 Mar 2020 21:28:53,306 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:28:53,306 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,307 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:28:53,307 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:28:53,307 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:28:53,307 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:28:53,308 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@8eb62c)
+28 Mar 2020 21:28:53,309 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:28:53,315 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,316 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@8eb62c)
+28 Mar 2020 21:28:53,316 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:28:53,316 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,317 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@8eb62c)
+28 Mar 2020 21:28:53,317 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:28:53,317 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,317 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@8eb62c)
+28 Mar 2020 21:28:53,318 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume3'}])
+28 Mar 2020 21:28:53,493 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,493 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,494 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:28:53,501 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,501 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,502 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:28:53,504 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,504 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,505 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:28:53,507 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,507 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,508 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:28:53,552 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,553 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,555 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,556 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,579 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,579 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,580 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:28:53,582 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,582 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,583 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:28:53,585 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,585 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,586 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:28:53,637 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,638 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,638 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:28:53,640 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:28:53,640 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bb0f73)
+28 Mar 2020 21:28:53,641 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:30:36,169 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:30:36,181 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:30:36,183 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:30:36,185 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:30:36,188 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 21:30:36,188 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:30:36,188 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:30:36,188 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:30:36,188 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:30:36,189 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:30:36,754 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@145ef89)
+28 Mar 2020 21:30:36,758 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 21:30:36,758 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 21:30:36,759 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:30:36,759 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:30:36,759 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:30:36,759 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:30:36,759 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:30:36,760 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1dedd24)
+28 Mar 2020 21:30:36,760 TRACE repository.JdbcRepositoryProba 33 size - Exit with(4)
+28 Mar 2020 21:30:36,761 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 21:30:36,761 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:30:36,761 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:30:36,761 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:30:36,761 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:30:36,761 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:30:36,762 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3db77)
+28 Mar 2020 21:30:36,762 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(4)
+28 Mar 2020 21:30:39,610 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:30:39,610 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:30:39,611 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@145ef89)
+28 Mar 2020 21:30:39,613 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:30:39,688 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:30:39,688 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:30:39,689 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@145ef89)
+28 Mar 2020 21:30:39,689 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:30:39,689 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:30:39,689 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:30:39,690 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:30:39,690 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:30:39,690 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:30:39,691 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@19238a5)
+28 Mar 2020 21:30:39,693 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:30:43,210 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:30:43,210 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@19238a5)
+28 Mar 2020 21:30:43,211 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:30:44,137 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:30:44,137 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@19238a5)
+28 Mar 2020 21:30:44,138 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:30:44,969 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:30:44,969 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@19238a5)
+28 Mar 2020 21:30:44,970 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume3'}])
+28 Mar 2020 21:31:01,937 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:31:01,947 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:31:01,949 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:31:01,952 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:31:01,954 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 21:31:01,954 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:01,954 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:31:01,954 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:31:01,954 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:31:01,955 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:31:02,530 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1b25fc4)
+28 Mar 2020 21:31:02,536 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 21:31:02,536 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 21:31:02,536 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:02,536 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:31:02,536 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:31:02,537 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:31:02,537 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:31:02,538 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9e582d)
+28 Mar 2020 21:31:02,538 TRACE repository.JdbcRepositoryProba 33 size - Exit with(4)
+28 Mar 2020 21:31:02,539 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 21:31:02,539 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:02,539 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:31:02,539 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:31:02,539 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:31:02,539 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:31:02,540 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@a79b8b)
+28 Mar 2020 21:31:02,541 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(4)
+28 Mar 2020 21:31:07,928 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:31:07,928 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:07,929 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1b25fc4)
+28 Mar 2020 21:31:07,931 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:31:08,002 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:31:08,002 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:08,002 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1b25fc4)
+28 Mar 2020 21:31:08,003 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:31:08,003 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:08,003 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:31:08,003 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:31:08,003 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:31:08,004 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:31:08,004 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@deb1b6)
+28 Mar 2020 21:31:08,006 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:31:13,460 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:13,460 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@deb1b6)
+28 Mar 2020 21:31:13,461 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:31:14,743 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:14,744 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@deb1b6)
+28 Mar 2020 21:31:14,744 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:31:25,571 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:25,572 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@deb1b6)
+28 Mar 2020 21:31:47,897 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([])
+28 Mar 2020 21:31:48,081 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:48,081 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@a79b8b)
+28 Mar 2020 21:31:48,082 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:31:48,086 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:48,087 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@a79b8b)
+28 Mar 2020 21:31:48,087 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:31:48,089 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:48,089 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@a79b8b)
+28 Mar 2020 21:31:48,090 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:31:48,098 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:48,099 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@a79b8b)
+28 Mar 2020 21:31:48,099 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:31:48,136 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:48,136 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@a79b8b)
+28 Mar 2020 21:31:48,136 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:31:48,139 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:48,139 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@a79b8b)
+28 Mar 2020 21:31:48,139 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:31:48,141 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:48,142 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@a79b8b)
+28 Mar 2020 21:31:48,142 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:31:48,162 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:48,162 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@a79b8b)
+28 Mar 2020 21:31:48,162 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:31:48,165 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:31:48,165 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@a79b8b)
+28 Mar 2020 21:31:48,166 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:32:52,317 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:32:52,323 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:32:52,324 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:32:52,326 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:32:52,328 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 21:32:52,328 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:52,328 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:32:52,328 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:32:52,328 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:32:52,328 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:32:52,854 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c27b06)
+28 Mar 2020 21:32:52,858 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 21:32:52,858 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 21:32:52,858 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:52,858 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:32:52,859 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:32:52,859 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:32:52,859 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:32:52,860 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@bf90b2)
+28 Mar 2020 21:32:52,860 TRACE repository.JdbcRepositoryProba 33 size - Exit with(4)
+28 Mar 2020 21:32:52,861 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 21:32:52,861 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:52,861 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:32:52,861 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:32:52,861 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:32:52,861 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:32:52,862 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:52,862 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(4)
+28 Mar 2020 21:32:55,623 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:32:55,628 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,628 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c27b06)
+28 Mar 2020 21:32:55,630 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:32:55,689 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:32:55,689 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,689 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c27b06)
+28 Mar 2020 21:32:55,690 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:32:55,690 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,690 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:32:55,690 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:32:55,691 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:32:55,691 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:32:55,691 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3841f)
+28 Mar 2020 21:32:55,693 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:32:55,699 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,699 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3841f)
+28 Mar 2020 21:32:55,700 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:32:55,700 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,700 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3841f)
+28 Mar 2020 21:32:55,701 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:32:55,701 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,701 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3841f)
+28 Mar 2020 21:32:55,702 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume3'}])
+28 Mar 2020 21:32:55,858 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,859 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,859 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:32:55,863 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,863 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,864 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:32:55,866 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,866 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,867 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:32:55,869 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,869 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,869 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:32:55,905 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,905 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,908 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,908 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,929 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,929 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,929 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:32:55,932 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,932 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,933 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:32:55,935 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,936 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,936 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:32:55,990 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,990 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,991 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:32:55,993 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:32:55,993 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@65ce67)
+28 Mar 2020 21:32:55,994 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:33:06,508 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:33:06,521 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:33:06,529 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:33:06,533 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:33:06,536 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 21:33:06,536 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:33:06,536 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:33:06,536 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:33:06,537 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:33:06,538 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:33:07,063 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1837126)
+28 Mar 2020 21:33:07,066 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 21:33:07,067 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 21:33:07,067 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:33:07,067 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:33:07,067 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:33:07,067 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:33:07,067 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:33:07,068 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1144ff)
+28 Mar 2020 21:33:07,068 TRACE repository.JdbcRepositoryProba 33 size - Exit with(4)
+28 Mar 2020 21:33:07,069 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 21:33:07,069 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:33:07,069 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:33:07,069 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:33:07,069 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:33:07,069 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:33:07,070 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:33:07,070 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(4)
+28 Mar 2020 21:33:09,608 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:33:09,608 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:33:09,609 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1837126)
+28 Mar 2020 21:33:09,610 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:33:09,692 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:33:09,692 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:33:09,692 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1837126)
+28 Mar 2020 21:33:09,692 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:33:09,693 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:33:09,693 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:33:09,693 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:33:09,693 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:33:09,693 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:33:09,694 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1af91a1)
+28 Mar 2020 21:33:09,696 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:33:22,675 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:33:22,676 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1af91a1)
+28 Mar 2020 21:33:23,458 ERROR repository.JdbcRepositoryParticipant 141 findAllForAProbe - java.sql.SQLException: ResultSet closed
+28 Mar 2020 21:33:23,458 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([])
+28 Mar 2020 21:33:24,897 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:33:24,897 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1af91a1)
+28 Mar 2020 21:33:27,053 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume2'}])
+28 Mar 2020 21:33:28,628 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:33:28,629 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1af91a1)
+28 Mar 2020 21:38:28,539 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:38:28,551 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:38:28,556 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:38:28,563 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:38:28,565 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 21:38:28,565 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:28,565 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:38:28,566 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:38:28,566 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:38:28,566 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:38:29,115 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1837126)
+28 Mar 2020 21:38:29,119 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 21:38:29,119 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 21:38:29,119 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:29,119 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:38:29,120 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:38:29,120 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:38:29,120 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:38:29,121 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1144ff)
+28 Mar 2020 21:38:29,121 TRACE repository.JdbcRepositoryProba 33 size - Exit with(4)
+28 Mar 2020 21:38:29,122 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 21:38:29,122 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:29,122 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:38:29,122 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:38:29,122 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:38:29,122 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:38:29,123 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:38:29,123 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(4)
+28 Mar 2020 21:38:32,202 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:38:32,202 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:32,202 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1837126)
+28 Mar 2020 21:38:32,204 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:38:32,275 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:38:32,276 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:32,276 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1837126)
+28 Mar 2020 21:38:32,276 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:38:32,276 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:32,277 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:38:32,277 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:38:32,277 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:38:32,277 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:38:32,278 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@b57ca4)
+28 Mar 2020 21:38:32,280 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:38:40,049 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:40,049 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@b57ca4)
+28 Mar 2020 21:38:46,104 ERROR repository.JdbcRepositoryParticipant 141 findAllForAProbe - java.sql.SQLException: ResultSet closed
+28 Mar 2020 21:38:47,936 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([])
+28 Mar 2020 21:38:49,611 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:49,611 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@b57ca4)
+28 Mar 2020 21:38:50,324 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:38:51,431 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:51,432 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@b57ca4)
+28 Mar 2020 21:38:54,219 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume3'}])
+28 Mar 2020 21:38:54,415 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:54,415 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:38:54,416 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:38:54,422 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:54,423 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:38:54,423 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:38:54,425 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:54,426 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:38:54,427 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:38:54,429 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:54,430 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:38:54,430 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:38:58,180 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:58,181 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:38:58,600 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:58,601 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:38:58,880 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:58,881 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:38:58,882 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:38:59,374 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:59,374 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:38:59,375 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:38:59,983 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:38:59,984 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@9ab36a)
+28 Mar 2020 21:38:59,984 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:39:27,583 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:39:27,588 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:39:27,589 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:39:27,591 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:39:27,593 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 21:39:27,593 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:27,593 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:39:27,593 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:39:27,593 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:39:27,593 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:39:28,171 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1aac3ae)
+28 Mar 2020 21:39:28,175 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 21:39:28,176 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 21:39:28,176 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:28,176 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:39:28,176 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:39:28,176 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:39:28,177 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:39:28,177 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3932)
+28 Mar 2020 21:39:28,178 TRACE repository.JdbcRepositoryProba 33 size - Exit with(4)
+28 Mar 2020 21:39:28,178 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 21:39:28,178 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:28,179 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:39:28,179 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:39:28,179 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:39:28,179 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:39:28,180 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:28,180 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(4)
+28 Mar 2020 21:39:35,943 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:39:35,943 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:35,944 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1aac3ae)
+28 Mar 2020 21:39:35,945 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:39:36,005 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:39:36,005 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,005 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1aac3ae)
+28 Mar 2020 21:39:36,006 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:39:36,006 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,006 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:39:36,006 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:39:36,007 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:39:36,007 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:39:36,007 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@10de938)
+28 Mar 2020 21:39:36,010 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:39:36,017 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,017 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@10de938)
+28 Mar 2020 21:39:36,017 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:39:36,018 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,018 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@10de938)
+28 Mar 2020 21:39:36,018 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:39:36,019 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,019 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@10de938)
+28 Mar 2020 21:39:36,019 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume3'}])
+28 Mar 2020 21:39:36,182 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,183 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,183 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:39:36,187 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,187 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,188 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:39:36,190 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,191 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,191 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:39:36,199 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,199 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,200 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:39:36,232 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,232 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,233 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:39:36,235 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,236 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,236 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:39:36,260 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,260 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,261 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:39:36,263 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,264 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,264 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:39:36,266 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,267 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,267 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:39:36,325 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,325 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,326 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:39:36,328 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:36,328 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:36,329 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:39:46,153 TRACE repository.JdbcRepositoryProba 46 save - Enter saving proba Proba{id=0, numeArbitru='a', tipProba=ALERGARE} 
+28 Mar 2020 21:39:46,153 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,153 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3932)
+28 Mar 2020 21:39:46,161 TRACE repository.JdbcRepositoryRezultat 47 save - Enter saving rezultat Rezultat{id=10=nume3, numarPuncte=111.0} 
+28 Mar 2020 21:39:46,161 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,162 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,169 TRACE repository.JdbcRepositoryRezultat 58 save - Exit
+28 Mar 2020 21:39:46,169 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,169 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@10de938)
+28 Mar 2020 21:39:46,170 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:39:46,170 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,171 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@10de938)
+28 Mar 2020 21:39:46,171 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:39:46,171 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,172 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@10de938)
+28 Mar 2020 21:39:46,172 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:39:46,172 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,172 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@10de938)
+28 Mar 2020 21:39:46,173 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume3'}, Participant{nume='nume3'}])
+28 Mar 2020 21:39:46,175 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,175 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,175 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:39:46,175 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,176 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,176 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:39:46,176 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,176 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,177 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:39:46,177 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,177 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,178 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:39:46,178 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,178 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,179 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:39:46,179 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,179 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,179 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:39:46,180 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,180 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,181 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(122.0)
+28 Mar 2020 21:39:46,181 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,181 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,181 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(122.0)
+28 Mar 2020 21:39:46,181 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,182 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,182 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(122.0)
+28 Mar 2020 21:39:46,185 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,185 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,185 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:39:46,186 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,186 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,187 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:39:46,188 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,188 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,189 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:39:46,189 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,189 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,189 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:39:46,190 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,190 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,190 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:39:46,191 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,191 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,191 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:39:46,191 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,192 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,192 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:39:46,192 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,192 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,193 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:39:46,196 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,197 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,197 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:39:46,197 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,197 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,198 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:39:46,198 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,198 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,198 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:39:46,199 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,199 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,199 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:39:46,199 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,199 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,200 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:39:46,200 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,200 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,201 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:39:46,203 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,203 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,203 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:39:46,204 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,204 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,204 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:39:46,204 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:39:46,204 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:39:46,205 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:45:31,974 INFO  repository.JdbcRepositoryArbitru 20 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:45:31,980 INFO  repository.JdbcRepositoryProba 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:45:31,982 INFO  repository.JdbcRepositoryParticipant 22 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:45:31,984 INFO  repository.JdbcRepositoryRezultat 23 <init> - Initializing DBRepo with properties: {labmpp.jdbc.url=jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon} 
+28 Mar 2020 21:45:31,985 TRACE repository.JdbcRepositoryArbitru 26 size - Enter
+28 Mar 2020 21:45:31,985 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:31,986 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:45:31,986 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:45:31,986 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:45:31,986 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:45:32,550 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1aac3ae)
+28 Mar 2020 21:45:32,554 TRACE repository.JdbcRepositoryArbitru 31 size - Exit with(3)
+28 Mar 2020 21:45:32,554 TRACE repository.JdbcRepositoryProba 28 size - Enter
+28 Mar 2020 21:45:32,554 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:32,554 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:45:32,555 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:45:32,555 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:45:32,555 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:45:32,556 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3932)
+28 Mar 2020 21:45:32,557 TRACE repository.JdbcRepositoryProba 33 size - Exit with(4)
+28 Mar 2020 21:45:32,557 TRACE repository.JdbcRepositoryRezultat 29 size - Enter
+28 Mar 2020 21:45:32,557 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:32,557 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:45:32,558 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:45:32,558 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:45:32,558 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:45:32,559 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:32,560 TRACE repository.JdbcRepositoryRezultat 34 size - Exit with(4)
+28 Mar 2020 21:45:35,112 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:45:35,112 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,112 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1aac3ae)
+28 Mar 2020 21:45:35,114 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:45:35,177 TRACE repository.JdbcRepositoryArbitru 79 findOne - Enter finding task with name: a 
+28 Mar 2020 21:45:35,177 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,178 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1aac3ae)
+28 Mar 2020 21:45:35,178 TRACE repository.JdbcRepositoryArbitru 89 findOne - Exit with(Arbitru{name='a', password='aaa'})
+28 Mar 2020 21:45:35,178 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,178 TRACE repository.JdbcUtils 19 getNewConnection - Enter
+28 Mar 2020 21:45:35,179 INFO  repository.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Marius\IdeaProjects\labmpp\database\Triatlon
+28 Mar 2020 21:45:35,179 INFO  repository.JdbcUtils 25 getNewConnection - user: null
+28 Mar 2020 21:45:35,179 INFO  repository.JdbcUtils 26 getNewConnection - pass: null
+28 Mar 2020 21:45:35,180 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:35,182 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:45:35,187 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,187 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:35,188 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:45:35,188 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,189 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:35,189 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:45:35,189 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,190 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:35,190 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume3'}])
+28 Mar 2020 21:45:35,348 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,348 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,348 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:45:35,353 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,353 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,354 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:45:35,357 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,357 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,358 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:45:35,361 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,361 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,362 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:45:35,402 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,402 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,402 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:45:35,407 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,407 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,408 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:45:35,431 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,432 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,432 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:45:35,434 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,435 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,435 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:45:35,437 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,437 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,438 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:45:35,487 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,487 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,488 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:45:35,490 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:35,490 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:35,491 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:45:41,240 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,240 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,240 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:45:41,240 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,241 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:41,241 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:45:41,242 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,242 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:41,242 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:45:41,243 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,243 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:41,243 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}])
+28 Mar 2020 21:45:41,243 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,243 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:41,244 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume3'}])
+28 Mar 2020 21:45:41,246 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,247 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,247 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:45:41,247 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,247 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,248 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:45:41,248 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,248 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,248 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:45:41,249 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,249 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,249 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:45:41,250 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,250 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,251 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:45:41,251 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,251 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,251 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:45:41,252 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,252 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,252 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:45:41,253 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,253 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,253 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:45:41,254 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,254 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,254 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(11.0)
+28 Mar 2020 21:45:41,257 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,257 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,258 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:45:41,258 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,258 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,258 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:45:41,259 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,259 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,260 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:45:41,262 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,262 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,262 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:45:41,263 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,263 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,263 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:45:41,263 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,264 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,264 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:45:41,264 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,264 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,265 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:45:41,265 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,265 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,265 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:45:41,266 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,266 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,266 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:45:41,268 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,269 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,269 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:45:41,269 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,269 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,270 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:45:41,270 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:41,270 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:41,271 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:45:50,367 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,367 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,369 TRACE repository.JdbcRepositoryProba 46 save - Enter saving proba Proba{id=0, numeArbitru='a', tipProba=CICLISM} 
+28 Mar 2020 21:45:50,369 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,369 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@1c3932)
+28 Mar 2020 21:45:50,376 TRACE repository.JdbcRepositoryRezultat 47 save - Enter saving rezultat Rezultat{id=11=nume3, numarPuncte=1111.0} 
+28 Mar 2020 21:45:50,377 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,377 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,382 TRACE repository.JdbcRepositoryRezultat 58 save - Exit
+28 Mar 2020 21:45:50,383 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,383 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:50,383 TRACE repository.JdbcRepositoryParticipant 119 findAll - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:45:50,384 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,384 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:50,384 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}])
+28 Mar 2020 21:45:50,385 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,385 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:50,385 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume1'}, Participant{nume='nume2'}, Participant{nume='nume3'}])
+28 Mar 2020 21:45:50,385 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,386 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@552494)
+28 Mar 2020 21:45:50,386 TRACE repository.JdbcRepositoryParticipant 144 findAllForAProbe - Exit with([Participant{nume='nume3'}])
+28 Mar 2020 21:45:50,388 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,388 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,388 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:45:50,389 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,389 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,389 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:45:50,389 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,390 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,390 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(110.0)
+28 Mar 2020 21:45:50,390 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,390 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,391 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:45:50,391 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,391 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,391 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:45:50,392 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,392 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,392 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(50.0)
+28 Mar 2020 21:45:50,393 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,393 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,393 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(1122.0)
+28 Mar 2020 21:45:50,393 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,393 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,394 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(1122.0)
+28 Mar 2020 21:45:50,394 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,394 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,395 TRACE repository.JdbcRepositoryRezultat 140 getTotalScoreForAParticipant - Exit with(1122.0)
+28 Mar 2020 21:45:50,397 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,397 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,397 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:45:50,398 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,398 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,398 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:45:50,399 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,399 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,399 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(11.0)
+28 Mar 2020 21:45:50,401 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,401 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,402 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(1111.0)
+28 Mar 2020 21:45:50,402 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,403 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,403 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(1111.0)
+28 Mar 2020 21:45:50,404 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,405 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,405 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:45:50,405 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,405 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,406 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:45:50,406 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,406 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,406 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(100.0)
+28 Mar 2020 21:45:50,407 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,407 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,407 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:45:50,407 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,408 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,408 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:45:50,408 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,409 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,409 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(50.0)
+28 Mar 2020 21:45:50,409 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,410 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,410 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(1111.0)
+28 Mar 2020 21:45:50,410 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,410 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,411 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(1111.0)
+28 Mar 2020 21:45:50,411 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,411 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,411 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(1111.0)
+28 Mar 2020 21:45:50,415 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,415 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,416 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:45:50,416 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,416 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,416 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)
+28 Mar 2020 21:45:50,417 TRACE repository.JdbcUtils 46 getConnection - Enter
+28 Mar 2020 21:45:50,417 TRACE repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.SQLiteConnection@f33993)
+28 Mar 2020 21:45:50,417 TRACE repository.JdbcRepositoryRezultat 162 getScoreOfAParticipantForAProbe - Exit with(10.0)

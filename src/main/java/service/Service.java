@@ -33,6 +33,8 @@ public class Service {
     }
 
     public void addRezultat(String participant,String numeArbitru,TipProba tipProba,double nrPuncte){
+        if(repoRezultate.getScoreOfAParticipantForAProbe(participant,tipProba)!=0)
+            return;//throw error
         Proba p=repoProbe.save(new Proba(numeArbitru,tipProba));
         repoRezultate.save(new Rezultat(p.getId(),participant,nrPuncte));
     }
