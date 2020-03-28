@@ -43,10 +43,10 @@ public class JdbcRepositoryRezultat implements FilterRepositoryRezultat {
     }
 
     @Override
-    public void save(Rezultat entity) {
+    public Rezultat save(Rezultat entity) {
         logger.traceEntry("saving rezultat {} ",entity);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("insert into Probe values (?,?,?)")){
+        try(PreparedStatement preStmt=con.prepareStatement("insert into Rezultate values (?,?,?)")){
             preStmt.setString(1,entity.getNumeParticipant());
             preStmt.setInt(2,entity.getIdProba());
             preStmt.setDouble(3,entity.getNumarPuncte());
@@ -56,7 +56,7 @@ public class JdbcRepositoryRezultat implements FilterRepositoryRezultat {
             System.out.println("Error DB "+ex);
         }
         logger.traceExit();
-
+        return null;
     }
 
     @Override

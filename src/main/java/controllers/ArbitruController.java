@@ -8,14 +8,15 @@ import javafx.beans.value.ObservableListValue;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.util.Callback;
 import service.Service;
 import utils.TipProba;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
@@ -39,6 +40,9 @@ public class ArbitruController {
 
     @FXML public TableColumn<Participant,String> alergareTableColumnNume;
     @FXML public TableColumn<Participant,String> alergareTableColumnPunctaj;
+    @FXML public Button buttonAddRezultat;
+    @FXML public TextField textFieldNrPuncte;
+    @FXML public ComboBox<String> comboTipProba;
 
 
     ObservableList<Participant> mainModel= FXCollections.observableArrayList();
@@ -111,6 +115,39 @@ public class ArbitruController {
             }
         });
         alergareTableView.setItems(alergareModel);
+
+        ObservableList<String> obss=FXCollections.observableArrayList();
+        List<String> obssList=new ArrayList<>();
+        obssList.add("NATATIE");
+        obssList.add("CICLISM");
+        obssList.add("ALERGARE");
+        obss.setAll(obssList);
+        comboTipProba.setItems(obss);
+
+    }
+
+    @FXML public void handleAddRezultat(ActionEvent actionEvent) {
+        String err="";
+        if(textFieldNrPuncte.getText().equals(""))
+            err+="Introduceti punctajul\n";
+
+        try {
+            Double.parseDouble(textFieldNrPuncte.getText());
+        } catch(NumberFormatException e){
+            err+="Punctajul trebuie sa fie un numar\n";
+        }
+        if(mainTableView.getSelectionModel().getSelectedItem()==null)
+            err+="Alegeti un participant din tabel\n";
+        if(!err.equals("")) {
+            Alert alert=new Alert(Alert.AlertType.ERROR);
+            alert.setContentText(err);
+            alert.show();
+        }
+        else {
+            service.addRezultat(mainTableView.getSelectionModel().getSelectedItem().getNume(),arbitru.getName(),TipProba.valueOf(comboTipProba.getValue()),Double.parseDouble(textFieldNrPuncte.getText()));
+        }
+
+
     }
 }
 

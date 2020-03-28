@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
@@ -83,9 +84,9 @@
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
-                  <TextField layoutX="304.0" layoutY="17.0" promptText="Numar puncte" />
-                  <Button layoutX="594.0" layoutY="17.0" mnemonicParsing="false" text="Adauga rezultat" />
-                  <TextField layoutX="14.0" layoutY="17.0" promptText="Proba" />
+                  <TextField fx:id="textFieldNrPuncte" layoutX="304.0" layoutY="17.0" promptText="Numar puncte" />
+                  <Button fx:id="buttonAddRezultat" layoutX="594.0" layoutY="17.0" mnemonicParsing="false" onAction="#handleAddRezultat" text="Adauga rezultat" />
+                  <ComboBox fx:id="comboTipProba" layoutX="14.0" layoutY="17.0" prefWidth="150.0" />
                </children>
             </AnchorPane>
         </items>

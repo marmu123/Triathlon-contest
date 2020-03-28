@@ -9,6 +9,11 @@ public class Proba {
     private String numeArbitru;
     private TipProba tipProba;
 
+    public Proba(String numeArbitru, TipProba tipProba) {
+        this.numeArbitru = numeArbitru;
+        this.tipProba = tipProba;
+    }
+
     @Override
     public String toString() {
         return "Proba{" +

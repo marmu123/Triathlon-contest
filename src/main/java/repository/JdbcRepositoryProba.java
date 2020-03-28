@@ -42,20 +42,32 @@ public class JdbcRepositoryProba implements IRepository<Integer, Proba> {
     }
 
     @Override
-    public void save(Proba entity) {
+    public Proba save(Proba entity) {
         logger.traceEntry("saving proba {} ",entity);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("insert into Probe values (?,?,?)")){
-            preStmt.setInt(1,entity.getId());
-            preStmt.setString(2,entity.getNumeArbitru());
-            preStmt.setString(3,entity.getTipProba().toString());
+        try(PreparedStatement preStmt=con.prepareStatement("insert into Probe(numeArbitru, tipProba) values (?,?)")){
+            preStmt.setString(1,entity.getNumeArbitru());
+            preStmt.setString(2,entity.getTipProba().toString());
             int result=preStmt.executeUpdate();
+
+        }catch (SQLException ex){
+            logger.error(ex);
+            System.out.println("Error DB "+ex);
+        }
+
+
+        try(PreparedStatement preStmt=con.prepareStatement("select * from Probe  order by id desc limit 1")){
+            try(ResultSet result=preStmt.executeQuery()) {
+                if (result.next()) {
+                    return new Proba(result.getInt("id"), result.getString("numeArbitru"), TipProba.valueOf(result.getString("tipProba")));
+                }
+            }
         }catch (SQLException ex){
             logger.error(ex);
             System.out.println("Error DB "+ex);
         }
         logger.traceExit();
-
+        return null;
     }
 
     @Override

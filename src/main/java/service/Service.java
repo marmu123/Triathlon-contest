@@ -28,10 +28,13 @@ public class Service {
     public Iterable<Rezultat> findAllRezultat(){return repoRezultate.findAll();}
     public Iterable<Participant> findAllParticipanti(){return repoParticipanti.findAll();}
 
-    public Iterable<Participant> findAllForAProbe(TipProba tipProba){return repoParticipanti.findAllForAProbe(tipProba);}
+    public Iterable<Participant> findAllForAProbe(TipProba tipProba){
+        return repoParticipanti.findAllForAProbe(tipProba);
+    }
 
-    public void addRezultat(Integer idProba,String participant,double nrPuncte){
-        repoRezultate.save(new Rezultat(idProba,participant,nrPuncte));
+    public void addRezultat(String participant,String numeArbitru,TipProba tipProba,double nrPuncte){
+        Proba p=repoProbe.save(new Proba(numeArbitru,tipProba));
+        repoRezultate.save(new Rezultat(p.getId(),participant,nrPuncte));
     }
     public boolean checkLogin(String user,String pass){
         Arbitru arbitru=repoArbitri.findOne(user);

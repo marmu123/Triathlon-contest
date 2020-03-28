@@ -42,7 +42,7 @@ public class JdbcRepositoryParticipant implements FilterRepositoryParticipant
     }
 
     @Override
-    public void save(Participant entity) {
+    public Participant save(Participant entity) {
         logger.traceEntry("saving participant {} ",entity);
         Connection con=dbUtils.getConnection();
         try(PreparedStatement preStmt=con.prepareStatement("insert into Participanti values (?)")){
@@ -53,7 +53,7 @@ public class JdbcRepositoryParticipant implements FilterRepositoryParticipant
             System.out.println("Error DB "+ex);
         }
         logger.traceExit();
-
+        return null;
     }
 
     @Override

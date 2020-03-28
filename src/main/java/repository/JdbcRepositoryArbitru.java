@@ -40,7 +40,7 @@ public class JdbcRepositoryArbitru implements IRepository<String, Arbitru> {
     }
 
     @Override
-    public void save(Arbitru entity) {
+    public Arbitru save(Arbitru entity) {
         logger.traceEntry("saving arbitru {} ",entity);
         Connection con=dbUtils.getConnection();
         try(PreparedStatement preStmt=con.prepareStatement("insert into Arbitri values (?,?)")){
@@ -52,7 +52,7 @@ public class JdbcRepositoryArbitru implements IRepository<String, Arbitru> {
             System.out.println("Error DB "+ex);
         }
         logger.traceExit();
-
+        return null;
     }
 
     @Override
