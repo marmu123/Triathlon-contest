@@ -1,5 +1,6 @@
 package controllers;
 
+import domain.Arbitru;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -52,8 +53,10 @@ public class LoginController {
                 Parent root1 = (Parent) fxmlLoader.load();
                 Stage stage = new Stage();
                 stage.setScene(new Scene(root1,900,500));
+                Arbitru arb=service.findArbitru(user);
+                stage.setTitle("User: Arbitru  Nume: "+arb.getName());
                 ArbitruController arbitruController = fxmlLoader.getController();
-                arbitruController.setService(service,service.findArbitru(user));
+                arbitruController.setService(service,arb);
                 stage.show();
                 loginStage.close();
             } catch(Exception e) {

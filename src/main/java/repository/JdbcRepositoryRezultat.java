@@ -46,7 +46,7 @@ public class JdbcRepositoryRezultat implements FilterRepositoryRezultat {
     public Rezultat save(Rezultat entity) {
         logger.traceEntry("saving rezultat {} ",entity);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("insert into Rezultate values (?,?,?)")){
+        try(PreparedStatement preStmt=con.prepareStatement("insert into Rezultate(numeParticipant,idProba,numarPuncte) values (?,?,?)")){
             preStmt.setString(1,entity.getNumeParticipant());
             preStmt.setInt(2,entity.getIdProba());
             preStmt.setDouble(3,entity.getNumarPuncte());
@@ -63,7 +63,7 @@ public class JdbcRepositoryRezultat implements FilterRepositoryRezultat {
     public void delete(Pair<Integer,String> id) {
         logger.traceEntry("deleting rezultat with id: {}",id);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("delete from Rezultate where idParticipant=? and idProba=?")){
+        try(PreparedStatement preStmt=con.prepareStatement("delete from Rezultate where numeParticipant=? and idProba=?")){
             preStmt.setInt(2,id.getKey());
             preStmt.setString(1,id.getValue());
             int result=preStmt.executeUpdate();
@@ -84,7 +84,7 @@ public class JdbcRepositoryRezultat implements FilterRepositoryRezultat {
         logger.traceEntry("finding rezultat with id: {} ",id);
         Connection con=dbUtils.getConnection();
 
-        try(PreparedStatement preStmt=con.prepareStatement("select * from Rezultate where idProba=? and idParticipant=?")){
+        try(PreparedStatement preStmt=con.prepareStatement("select * from Rezultate where idProba=? and numeParticipant=?")){
             preStmt.setInt(1,id.getKey());
             preStmt.setString(2,id.getValue());
             try(ResultSet result=preStmt.executeQuery()) {
@@ -133,7 +133,7 @@ public class JdbcRepositoryRezultat implements FilterRepositoryRezultat {
     public double getTotalScoreForAParticipant(String participant) {
         //logger.();
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("select SUM(numarPuncte) as NRPCT  from Rezultate where idParticipant=?")) {
+        try(PreparedStatement preStmt=con.prepareStatement("select SUM(numarPuncte) as NRPCT  from Rezultate where numeParticipant=?")) {
             preStmt.setString(1,participant);
             try(ResultSet result=preStmt.executeQuery()) {
                 if (result.next()) {
@@ -154,7 +154,7 @@ public class JdbcRepositoryRezultat implements FilterRepositoryRezultat {
         Connection con=dbUtils.getConnection();
         try(PreparedStatement preStmt=con.prepareStatement("select numarPuncte from Rezultate " +
                 "inner join Probe P on Rezultate.idProba = P.id " +
-                "where Rezultate.idParticipant=? and P.tipProba=?")) {
+                "where Rezultate.numeParticipant=? and P.tipProba=?")) {
             preStmt.setString(1,participant);
             preStmt.setString(2,tipProba.toString());
             try(ResultSet result=preStmt.executeQuery()) {

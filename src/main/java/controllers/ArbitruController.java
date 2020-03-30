@@ -74,6 +74,20 @@ public class ArbitruController {
                 .collect(Collectors.toList());
         alergareModel.setAll(alergareList);
 
+        natatieTableView.getSortOrder().clear();
+        natatieTableColumnPunctaj.setSortType(TableColumn.SortType.DESCENDING);
+        natatieTableView.getSortOrder().add(natatieTableColumnPunctaj);
+        natatieTableView.sort();
+
+        ciclismTableView.getSortOrder().clear();
+        ciclismTableColumnPunctaj.setSortType(TableColumn.SortType.DESCENDING);
+        ciclismTableView.getSortOrder().add(ciclismTableColumnPunctaj);
+        ciclismTableView.sort();
+
+        alergareTableView.getSortOrder().clear();
+        alergareTableColumnPunctaj.setSortType(TableColumn.SortType.DESCENDING);
+        alergareTableView.getSortOrder().add(alergareTableColumnPunctaj);
+        alergareTableView.sort();
     }
 
 
@@ -123,6 +137,9 @@ public class ArbitruController {
         obssList.add("ALERGARE");
         obss.setAll(obssList);
         comboTipProba.setItems(obss);
+
+
+
 
     }
 

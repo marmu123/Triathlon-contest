@@ -126,7 +126,7 @@ public class JdbcRepositoryParticipant implements FilterRepositoryParticipant
         Connection con=dbUtils.getConnection();
         List<Participant> participants=new ArrayList<>();
         try(PreparedStatement preStmt=con.prepareStatement("select p.nume as [NUM] from Participanti p" +
-                " inner join Rezultate R on p.nume = R.idParticipant" +
+                " inner join Rezultate R on p.nume = R.numeParticipant" +
                 " inner join Probe P2 on R.idProba = P2.id" +
                 " where P2.tipProba=?")) {
             preStmt.setString(1,tipProba.toString());

@@ -25,7 +25,7 @@ public class JdbcRepositoryArbitru implements IRepository<String, Arbitru> {
     public int size()  {
         logger.traceEntry();
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("select count(*) as [SIZE] from Arbitri")) {
+        try(PreparedStatement preStmt=con.prepareStatement("select count(*) as [SIZE] from Arbitrii")) {
             try(ResultSet result = preStmt.executeQuery()) {
                 if (result.next()) {
                     logger.traceExit(result.getInt("SIZE"));
@@ -43,7 +43,7 @@ public class JdbcRepositoryArbitru implements IRepository<String, Arbitru> {
     public Arbitru save(Arbitru entity) {
         logger.traceEntry("saving arbitru {} ",entity);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("insert into Arbitri values (?,?)")){
+        try(PreparedStatement preStmt=con.prepareStatement("insert into Arbitrii values (?,?)")){
             preStmt.setString(1,entity.getName());
             preStmt.setString(2,entity.getPassword());
             int result=preStmt.executeUpdate();
@@ -59,7 +59,7 @@ public class JdbcRepositoryArbitru implements IRepository<String, Arbitru> {
     public void delete(String s) {
         logger.traceEntry("deleting arbitru with name: {}",s);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("delete from Arbitru where name=?")){
+        try(PreparedStatement preStmt=con.prepareStatement("delete from Arbitrii where nume=?")){
             preStmt.setString(1,s);
             int result=preStmt.executeUpdate();
         }catch (SQLException ex){
@@ -79,12 +79,12 @@ public class JdbcRepositoryArbitru implements IRepository<String, Arbitru> {
         logger.traceEntry("finding task with name: {} ",s);
         Connection con=dbUtils.getConnection();
 
-        try(PreparedStatement preStmt=con.prepareStatement("select * from Arbitri where name=?")){
+        try(PreparedStatement preStmt=con.prepareStatement("select * from Arbitrii where nume=?")){
             preStmt.setString(1,s);
             try(ResultSet result=preStmt.executeQuery()) {
                 if (result.next()) {
-                    String name = result.getString("name");
-                    String password = result.getString("password");
+                    String name = result.getString("nume");
+                    String password = result.getString("parola");
                     Arbitru arbitru = new Arbitru(name,password);
                     logger.traceExit(arbitru);
                     return arbitru;
@@ -104,11 +104,11 @@ public class JdbcRepositoryArbitru implements IRepository<String, Arbitru> {
         //logger.();
         Connection con=dbUtils.getConnection();
         List<Arbitru> arbitri=new ArrayList<>();
-        try(PreparedStatement preStmt=con.prepareStatement("select * from Arbitri")) {
+        try(PreparedStatement preStmt=con.prepareStatement("select * from Arbitrii")) {
             try(ResultSet result=preStmt.executeQuery()) {
                 while (result.next()) {
-                    String name = result.getString("name");
-                    String password = result.getString("password");
+                    String name = result.getString("nume");
+                    String password = result.getString("parola");
                     Arbitru arbitru = new Arbitru(name,password);
                     arbitri.add(arbitru);
                 }
