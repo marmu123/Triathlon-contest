@@ -1,3 +1,5 @@
+import client.StartRpcClient;
+import controllers.ArbitruController;
 import controllers.LoginController;
 import domain.Arbitru;
 import domain.Proba;
@@ -44,21 +46,17 @@ public class MainJavaFX extends Application {
         IRepository<Integer, Proba> repoProbe=new JdbcRepositoryProba(serverProps);
         FilterRepositoryParticipant repoParticipanti=new JdbcRepositoryParticipant(serverProps);
         FilterRepositoryRezultat repoRezultate=new JdbcRepositoryRezultat(serverProps);
-        System.out.println("Nr. arbitri: "+repoArbitri.size());
-        System.out.println("Nr. probe: "+repoProbe.size());
+       // System.out.println("Nr. arbitri: "+repoArbitri.size());
+       // System.out.println("Nr. probe: "+repoProbe.size());
         //repoParticipanti.findAllForAProbe(TipProba.CICLISM).forEach(System.out::println);
-        System.out.println("Nr.rezultate: "+ repoRezultate.size());
+        //System.out.println("Nr.rezultate: "+ repoRezultate.size());
         Service service=new Service(repoArbitri,repoProbe,repoRezultate,repoParticipanti);
 
 
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/login.fxml"));
-            AnchorPane anchorPane = fxmlLoader.load();
-            Stage stage = new Stage();
-            stage.setScene(new Scene(anchorPane,250 ,250));
-            LoginController controllerLogin = fxmlLoader.getController();
-            controllerLogin.setService(service,stage);
-            stage.show();
+
+            LoginController loginController= StartRpcClient.main(service);
+
         } catch(Exception e) {
             e.printStackTrace();
         }

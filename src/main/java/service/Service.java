@@ -32,11 +32,13 @@ public class Service {
         return repoParticipanti.findAllForAProbe(tipProba);
     }
 
-    public void addRezultat(String participant,String numeArbitru,TipProba tipProba,double nrPuncte){
+    public Rezultat addRezultat(String participant,String numeArbitru,TipProba tipProba,double nrPuncte){
         if(repoRezultate.getScoreOfAParticipantForAProbe(participant,tipProba)!=0)
-            return;//throw error
+            return null;//throw error
         Proba p=repoProbe.save(new Proba(numeArbitru,tipProba));
-        repoRezultate.save(new Rezultat(p.getId(),participant,nrPuncte));
+        Rezultat r=new Rezultat(p.getId(),participant,nrPuncte);
+        repoRezultate.save(r);
+        return r;
     }
     public boolean checkLogin(String user,String pass){
         Arbitru arbitru=repoArbitri.findOne(user);

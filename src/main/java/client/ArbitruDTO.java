@@ -1,8 +1,11 @@
-package domain;
+package client;
 
+import domain.Arbitru;
+
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Arbitru {
+public class ArbitruDTO extends Arbitru implements Serializable {
 
     private String name;
     private String password;
@@ -19,17 +22,6 @@ public class Arbitru {
                 '}';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Arbitru arbitru = (Arbitru) o;
-        return Objects.equals(name, arbitru.name) &&
-                Objects.equals(password, arbitru.password);
-    }
-
-    public Arbitru() {
-    }
 
     @Override
     public int hashCode() {
@@ -48,8 +40,9 @@ public class Arbitru {
         this.password = password;
     }
 
-    public Arbitru(String name, String password) {
+    public ArbitruDTO(String name, String password) {
         this.name = name;
         this.password = password;
     }
 }
+

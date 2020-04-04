@@ -3,6 +3,7 @@ package controllers;
 import domain.Arbitru;
 import domain.Participant;
 import domain.Rezultat;
+import javafx.application.Platform;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ObservableListValue;
 import javafx.beans.value.ObservableValue;
@@ -10,9 +11,12 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.util.Callback;
+import service.IObserver;
+import service.IServices;
 import service.Service;
 import utils.TipProba;
 
@@ -21,7 +25,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-public class ArbitruController {
+public class ArbitruController implements IObserver {
 
 
     @FXML public TableColumn<Participant,String> mainTableColumnNume;
@@ -50,10 +54,12 @@ public class ArbitruController {
     ObservableList<Participant> ciclismModel= FXCollections.observableArrayList();
     ObservableList<Participant> alergareModel= FXCollections.observableArrayList();
     Service service;
+    LoginController loginController;
     Arbitru arbitru;
-    public void setService(Service service,Arbitru arbitru){
+    public void setService(Service service,Arbitru arbitru,LoginController loginController){
         this.service=service;
         this.arbitru=arbitru;
+        this.loginController=loginController;
         initModel();
     }
 
@@ -143,7 +149,7 @@ public class ArbitruController {
 
     }
 
-    @FXML public void handleAddRezultat(ActionEvent actionEvent) {
+    @FXML public void handleAddRezultat(ActionEvent actionEvent) throws Exception {
         String err="";
         if(textFieldNrPuncte.getText().equals(""))
             err+="Introduceti punctajul\n";
@@ -161,11 +167,35 @@ public class ArbitruController {
             alert.show();
         }
         else {
-            service.addRezultat(mainTableView.getSelectionModel().getSelectedItem().getNume(),arbitru.getName(),TipProba.valueOf(comboTipProba.getValue()),Double.parseDouble(textFieldNrPuncte.getText()));
-            initModel();
+            Rezultat r=service.addRezultat(mainTableView.getSelectionModel().getSelectedItem().getNume(),arbitru.getName(),TipProba.valueOf(comboTipProba.getValue()),Double.parseDouble(textFieldNrPuncte.getText()));
+            loginController.rezultatAdaugat(r);
+            refresh(r);
+           //rezultatAdaugat(r);
         }
 
 
+    }
+
+    @Override
+    public void rezultatAdaugat(Rezultat r) throws Exception {
+        System.out.println("Arbitru controller rez adaugat\n");
+        //initModel();
+        //refresh(r);
+    }
+
+    @Override
+    public void loggedIn(Arbitru user) {
+
+    }
+
+    @Override
+    public void refresh(Rezultat r) {
+        Platform.runLater(new Runnable() {
+            @Override
+            public void run() {
+                initModel();
+            }
+        });
     }
 }
 
