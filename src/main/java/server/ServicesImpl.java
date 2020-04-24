@@ -15,7 +15,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 
-public class ChatServicesImpl implements IServices {
+public class ServicesImpl implements IServices {
 
     private IRepository<String, Arbitru> repoArbitri;
     private IRepository<Integer, Proba> repoProbe;
@@ -24,7 +24,7 @@ public class ChatServicesImpl implements IServices {
     private Map<String, IObserver> loggedClients;
     private final int defaultThreadsNo=10;
 
-    public ChatServicesImpl(IRepository<String, Arbitru> repoArbitri, IRepository<Integer, Proba> repoProbe, FilterRepositoryRezultat repoRezultate, FilterRepositoryParticipant repoParticipanti) {
+    public ServicesImpl(IRepository<String, Arbitru> repoArbitri, IRepository<Integer, Proba> repoProbe, FilterRepositoryRezultat repoRezultate, FilterRepositoryParticipant repoParticipanti) {
 
         this.repoArbitri = repoArbitri;
         this.repoProbe = repoProbe;
@@ -47,7 +47,6 @@ public class ChatServicesImpl implements IServices {
             if (chatClient!=null)
                 executor.execute(() -> {
                     try {
-                        System.out.println("URAT\n");
                         chatClient.rezultatAdaugat(rezultat);
 
                         //chatClient.refresh(rezultat);

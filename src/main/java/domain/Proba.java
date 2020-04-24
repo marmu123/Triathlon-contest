@@ -2,9 +2,10 @@ package domain;
 
 import utils.TipProba;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Proba {
+public class Proba implements Serializable {
     private int id;
     private String numeArbitru;
     private TipProba tipProba;

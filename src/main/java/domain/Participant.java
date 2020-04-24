@@ -1,8 +1,9 @@
 package domain;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Participant {
+public class Participant implements Serializable {
     private String nume;
 
     @Override

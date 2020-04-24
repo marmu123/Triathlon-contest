@@ -1,8 +1,9 @@
 package domain;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Arbitru {
+public class Arbitru implements Serializable {
 
     private String name;
     private String password;

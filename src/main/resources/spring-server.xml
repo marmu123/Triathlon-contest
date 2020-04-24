@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps" location="classpath:bd.config"/>
+    <bean id="repoArbitri" class="repository.JdbcRepositoryArbitru">
+        <constructor-arg ref = "jdbcProps"/>
+    </bean>
+
+    <bean id="repoProbe" class="repository.JdbcRepositoryProba">
+        <constructor-arg ref = "jdbcProps"/>
+    </bean>
+
+    <bean id="repoParticipanti" class="repository.JdbcRepositoryParticipant">
+        <constructor-arg ref = "jdbcProps"/>
+    </bean>
+    <bean id="repoRezultate" class="repository.JdbcRepositoryRezultat">
+        <constructor-arg ref = "jdbcProps"/>
+    </bean>
+
+
+    <bean id="service" class="server.ServicesImpl">
+        <constructor-arg ref="repoArbitri"/>
+        <constructor-arg ref="repoProbe"/>
+        <constructor-arg ref="repoParticipanti"/>
+        <constructor-arg ref="repoRezultate"/>
+    </bean>
+
+
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="Labmpp"/>
+        <property name="service" ref="service"/>
+        <property name="serviceInterface" value="service.IServices"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+
+</beans>

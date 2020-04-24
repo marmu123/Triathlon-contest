@@ -19,7 +19,6 @@ public abstract class AbstractServer {
             while(true){
                 System.out.println("Waiting for clients ...");
                 Socket client=server.accept();
-                System.out.println("MANO E NEBUN");
                 System.out.println("Client connected ...");
                 processRequest(client);
             }

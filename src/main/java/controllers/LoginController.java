@@ -17,6 +17,10 @@ import service.IObserver;
 import service.IServices;
 import service.Service;
 
+import java.io.Serializable;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
 public class LoginController implements IObserver {
     @FXML
     private TextField userInput;
@@ -25,6 +29,9 @@ public class LoginController implements IObserver {
     Service service;
     private IServices server;
     private Stage loginStage;
+
+//    public LoginController() throws RemoteException {
+//    }
 
     @FXML
     public void initialize(){

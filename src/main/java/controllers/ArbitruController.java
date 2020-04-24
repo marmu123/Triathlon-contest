@@ -20,12 +20,15 @@ import service.IServices;
 import service.Service;
 import utils.TipProba;
 
+import java.io.Serializable;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-public class ArbitruController implements IObserver {
+public class ArbitruController extends UnicastRemoteObject implements IObserver, Serializable {
 
 
     @FXML public TableColumn<Participant,String> mainTableColumnNume;
@@ -56,6 +59,10 @@ public class ArbitruController implements IObserver {
     Service service;
     LoginController loginController;
     Arbitru arbitru;
+
+    public ArbitruController() throws RemoteException {
+    }
+
     public void setService(Service service,Arbitru arbitru,LoginController loginController){
         this.service=service;
         this.arbitru=arbitru;
@@ -170,7 +177,7 @@ public class ArbitruController implements IObserver {
             Rezultat r=service.addRezultat(mainTableView.getSelectionModel().getSelectedItem().getNume(),arbitru.getName(),TipProba.valueOf(comboTipProba.getValue()),Double.parseDouble(textFieldNrPuncte.getText()));
             loginController.rezultatAdaugat(r);
             refresh(r);
-           //rezultatAdaugat(r);
+            //rezultatAdaugat(r);
         }
 
 
@@ -180,7 +187,7 @@ public class ArbitruController implements IObserver {
     public void rezultatAdaugat(Rezultat r) throws Exception {
         System.out.println("Arbitru controller rez adaugat\n");
         //initModel();
-        //refresh(r);
+        refresh(r);
     }
 
     @Override

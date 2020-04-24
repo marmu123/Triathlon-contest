@@ -2,7 +2,9 @@ package domain;
 
 import javafx.util.Pair;
 
-public class Rezultat {
+import java.io.Serializable;
+
+public class Rezultat implements Serializable {
     private Pair<Integer,String> id;
     private double numarPuncte;
 
