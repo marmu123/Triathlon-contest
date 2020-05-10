@@ -3,10 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="services" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
-        <property name="serviceUrl" value="rmi://localhost:1099/Labmpp"/>
-        <!-- <property name="serviceUrl" value="rmi://localhost:1099/Chat"/>-->
-        <property name="serviceInterface" value="service.IServices"/>
-    </bean>
+<!--    <bean id="services" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">-->
+<!--        <property name="serviceUrl" value="rmi://localhost:1099/Labmpp"/>-->
+<!--        &lt;!&ndash; <property name="serviceUrl" value="rmi://localhost:1099/Chat"/>&ndash;&gt;-->
+<!--        <property name="serviceInterface" value="service.IServices"/>-->
+<!--    </bean>-->
 
 </beans>

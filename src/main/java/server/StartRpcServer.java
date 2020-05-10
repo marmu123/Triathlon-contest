@@ -3,6 +3,8 @@ package server;
 
 import domain.Arbitru;
 import domain.Proba;
+import grpc.GrpcImpl;
+import grpc.MainServer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import repository.*;
@@ -16,7 +18,7 @@ import java.util.Properties;
 
 public class StartRpcServer {
     private static int defaultPort=55555;
-    public static void main(String[] args) throws ServerException {
+    public static void main(String[] args) throws IOException, InterruptedException {
 //        Properties serverProps=new Properties();
 //        try {
 //            serverProps.load(StartRpcServer.class.getResourceAsStream("/server.properties"));
@@ -54,6 +56,10 @@ public class StartRpcServer {
 
         ApplicationContext factory = new ClassPathXmlApplicationContext("classpath:spring-server.xml");
 
+        IServices services=(IServices) factory.getBean("services");
+        MainServer server=new MainServer(defaultPort,services);
+        server.run();
+        server.blockUntilShutdown();
 
     }
 }

@@ -1,6 +1,6 @@
-import client.StartRpcClient;
-import controllers.ArbitruController;
-import controllers.LoginController;
+//import client.StartRpcClient;
+//import controllers.ArbitruController;
+//import controllers.LoginController;
 import domain.Arbitru;
 import domain.Proba;
 import domain.Rezultat;
@@ -53,9 +53,10 @@ public class MainJavaFX extends Application {
         Service service=new Service(repoArbitri,repoProbe,repoRezultate,repoParticipanti);
 
 
+
         try {
 
-            LoginController loginController= StartRpcClient.main(service);
+            //LoginController loginController= StartRpcClient.main(service);
 
         } catch(Exception e) {
             e.printStackTrace();

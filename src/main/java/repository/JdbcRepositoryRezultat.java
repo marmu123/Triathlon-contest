@@ -157,15 +157,20 @@ public class JdbcRepositoryRezultat implements FilterRepositoryRezultat {
                 "where Rezultate.numeParticipant=? and P.tipProba=?")) {
             preStmt.setString(1,participant);
             preStmt.setString(2,tipProba.toString());
-            try(ResultSet result=preStmt.executeQuery()) {
-                if (result.next()) {
+            ResultSet result=preStmt.executeQuery();
+            try {
+                if(result.next())
+                {
                     logger.traceExit(result.getDouble("numarPuncte"));
                     return result.getDouble("numarPuncte");
                 }
+
             }
+            catch (Exception e){e.printStackTrace();}
         } catch (SQLException e) {
             logger.error(e);
             System.out.println("Error DB "+e);
+            return 0;
         }
         return 0;
     }

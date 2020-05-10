@@ -1,0 +1,91 @@
+syntax = "proto3";
+
+
+package proto;
+option java_multiple_files=true;
+option java_package="proto";
+option java_outer_classname="ProtoClass";
+//option objc_class_prefix="PRT";
+// The greeting service definition.
+service GRPCServices {
+  // Sends a greeting
+  rpc addRezultat (Request) returns (Response);
+  rpc login(Request) returns(Response);
+  rpc getAllRezultate(Request)  returns(Response);
+  rpc getAllParticipanti(Request) returns(Response);
+  rpc findAllForAProbe(Request) returns(Response);
+  rpc findArbitru(Request) returns(Response);
+  rpc getPunctajTotalParticipant(Request) returns(Response);
+  rpc getPunctajParticipantPentruOProba(Request) returns(Response);
+}
+
+// The request message containing the user's name.
+message Rezultat {
+  int32 idProba = 1;
+  string numeParticipant=2;
+  double numarPuncte=3;
+}
+message Arbitru{
+  string name=1;
+  string password=2;
+}
+
+message Participant{
+  string name=1;
+}
+
+message Proba{
+  int32 id=1;
+  string numeArbitru=2;
+  enum TipProba {
+    NATATIE=0;
+    CICLISM=1;
+    ALERGARE=2;
+  }
+  TipProba tipProba=3;
+}
+
+message Request{
+  enum RequestType{
+      LOGIN=0;
+      ADAUGARE_REZULTAT=1;
+      GET_LOGGED_USERS=2;
+      GET_ALL_REZULTATE=3;
+      GET_ALL_PARTICIPANTI=4;
+      FIND_ALL_FOR_A_PROBE=5;
+      FIND_ARBITRU=6;
+      GET_PUNCTAJ_TOTAL_PARTICIPANT=7;
+      GET_PUNCTAJ_PARTICIPANT_PROBA=8;
+  }
+  RequestType requestType=1;
+    repeated Arbitru arbitru=2;
+    repeated Rezultat rezultat=3;
+    repeated Proba proba=4;
+    repeated Participant participant=5;
+}
+
+message Response{
+  enum ResponseType{
+    OK=0;
+    ERROR=1;
+    REZULTAT_ADAUGAT=2;
+    LOGGED_IN=3;
+    SENT_ALL_REZULTATE=4;
+    SENT_ALL_PARTICIPANTI=5;
+    SENT_ALL_FOR_A_PROBE=6;
+    SENT_ARBITRU=7;
+    SENT_PUNCTAJ_TOTAL_PARTICIPANT=8;
+    SENT_PUNCTAJ_PARTICIPANT_PROBA=9;
+  }
+  ResponseType responseType=1;
+  repeated Rezultat rezultate=2;
+  repeated Participant participanti=3;
+  repeated Arbitru arbitru=4;
+  repeated Proba proba=5;
+  repeated double total=6;
+
+}
+
+
+
+

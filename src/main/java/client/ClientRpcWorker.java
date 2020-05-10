@@ -81,7 +81,7 @@ public class ClientRpcWorker implements Runnable, IObserver {
             try {
                 System.out.println("PAS 3");
                 System.out.println(connection);
-                server.addRezultat(rezultat);
+                //server.addRezultat(rezultat);//comment
                 return okResponse;
             } catch (Exception e) {
                 return new Response.Builder().type(ResponseType.ERROR).data(e.getMessage()).build();

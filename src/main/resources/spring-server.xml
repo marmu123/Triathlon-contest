@@ -21,21 +21,23 @@
     </bean>
 
 
-    <bean id="service" class="server.ServicesImpl">
+    <bean id="service" class="service.Service">
         <constructor-arg ref="repoArbitri"/>
         <constructor-arg ref="repoProbe"/>
         <constructor-arg ref="repoParticipanti"/>
         <constructor-arg ref="repoRezultate"/>
     </bean>
-
-
-
-    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
-
-        <property name="serviceName" value="Labmpp"/>
-        <property name="service" ref="service"/>
-        <property name="serviceInterface" value="service.IServices"/>
-        <property name="servicePort" value="1099"/>
+    <bean id="services" class="server.ServicesImpl">
+        <constructor-arg ref="service"/>
     </bean>
+
+
+
+<!--    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">-->
+<!--        <property name="serviceName" value="Labmpp"/>-->
+<!--        <property name="service" ref="service"/>-->
+<!--        <property name="serviceInterface" value="service.IServices"/>-->
+<!--        <property name="servicePort" value="1099"/>-->
+<!--    </bean>-->
 
 </beans>
