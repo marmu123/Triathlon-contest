@@ -75,8 +75,9 @@ public class JdbcRepositoryRezultat implements FilterRepositoryRezultat {
     }
 
     @Override
-    public void update(Pair<Integer,String> id, Rezultat entity) {
+    public Rezultat update(Pair<Integer,String> id, Rezultat entity) {
         //todo
+        return null;
     }
 
     @Override

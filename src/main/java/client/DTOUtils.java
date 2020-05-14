@@ -8,13 +8,13 @@ public class DTOUtils {
     public static Arbitru getFromDTO(ArbitruDTO arbitruDTO){
         String id=arbitruDTO.getName();
         String pass=arbitruDTO.getPassword();
-        return new Arbitru(id,pass);
+        return new Arbitru();//new Arbitru(id,pass)
 
     }
     public static ArbitruDTO getDTO(Arbitru user){
         String id=user.getName();
         String pass=user.getPassword();
-        return new ArbitruDTO(id, pass);
+        return new ArbitruDTO();//new ArbitruDTO(id,pass)
     }
 
     public static Rezultat getFromDTO(RezultatDTO rezultatDTO){

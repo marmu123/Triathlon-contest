@@ -10,6 +10,10 @@ public class ArbitruDTO extends Arbitru implements Serializable {
     private String name;
     private String password;
 
+//    public ArbitruDTO(String name, String password) {
+//        super(name, password);
+//    }
+
     public String getName() {
         return name;
     }
@@ -40,9 +44,6 @@ public class ArbitruDTO extends Arbitru implements Serializable {
         this.password = password;
     }
 
-    public ArbitruDTO(String name, String password) {
-        this.name = name;
-        this.password = password;
-    }
+
 }
 

@@ -4,6 +4,8 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class Arbitru implements Serializable {
+    public Arbitru() {
+    }
 
     private String name;
     private String password;
@@ -29,8 +31,7 @@ public class Arbitru implements Serializable {
                 Objects.equals(password, arbitru.password);
     }
 
-    public Arbitru() {
-    }
+
 
     @Override
     public int hashCode() {

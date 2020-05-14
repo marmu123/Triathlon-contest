@@ -70,8 +70,8 @@ public class JdbcRepositoryArbitru implements IRepository<String, Arbitru> {
     }
 
     @Override
-    public void update(String s, Arbitru entity) {
-
+    public Arbitru update(String s, Arbitru entity) {
+        return null;
     }
 
     @Override
@@ -85,7 +85,7 @@ public class JdbcRepositoryArbitru implements IRepository<String, Arbitru> {
                 if (result.next()) {
                     String name = result.getString("nume");
                     String password = result.getString("parola");
-                    Arbitru arbitru = new Arbitru(name,password);
+                    Arbitru arbitru = new Arbitru();//name,password
                     logger.traceExit(arbitru);
                     return arbitru;
                 }
@@ -109,7 +109,7 @@ public class JdbcRepositoryArbitru implements IRepository<String, Arbitru> {
                 while (result.next()) {
                     String name = result.getString("nume");
                     String password = result.getString("parola");
-                    Arbitru arbitru = new Arbitru(name,password);
+                    Arbitru arbitru = new Arbitru();//name,password
                     arbitri.add(arbitru);
                 }
             }

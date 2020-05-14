@@ -1,9 +1,18 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.8.RELEASE")
+    }
+}
 plugins {
     id 'java'
     id 'application'
     id "com.google.protobuf" version "0.8.10"
 
 }
+apply plugin: 'org.springframework.boot'
 
 group 'labmpp'
 version '1.0-SNAPSHOT'
@@ -23,14 +32,19 @@ dependencies {
 
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile 'org.springframework:spring-context:5.0.4.RELEASE'
+    //compile 'org.springframework:spring-context:5.0.4.RELEASE'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
-    // https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java
     compile group: 'com.google.protobuf', name: 'protobuf-java', version: '3.10.0'
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.10.Final'
+    compile group: 'org.javassist', name: 'javassist', version: '3.20.0-GA'
 
-    // https://mvnrepository.com/artifact/io.grpc/grpc-all
     compile group: 'io.grpc', name: 'grpc-all', version: '1.25.0'
+
+    compile("org.springframework.boot:spring-boot-starter-web")
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('com.jayway.jsonpath:json-path')
 }
 sourceSets {
     main {

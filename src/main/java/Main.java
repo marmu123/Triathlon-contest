@@ -27,9 +27,9 @@ public class Main {
         IRepository<Integer, Proba> repoProbe=new JdbcRepositoryProba(serverProps);
         FilterRepositoryParticipant repoParticipanti=new JdbcRepositoryParticipant(serverProps);
         IRepository<Pair<Integer,String>, Rezultat> repoRezultate=new JdbcRepositoryRezultat(serverProps);
-        System.out.println("Nr. arbitri: "+repoArbitri.size());
-        System.out.println("Nr. probe: "+repoProbe.size());
+        //System.out.println("Nr. arbitri: "+repoArbitri.size());
+        //System.out.println("Nr. probe: "+repoProbe.size());
         repoParticipanti.findAllForAProbe(TipProba.CICLISM).forEach(System.out::println);
-        System.out.println("Nr.rezultate: "+ repoRezultate.size());
+       // System.out.println("Nr.rezultate: "+ repoRezultate.size());
     }
 }

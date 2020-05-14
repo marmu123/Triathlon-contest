@@ -15,6 +15,9 @@ public class Proba implements Serializable {
         this.tipProba = tipProba;
     }
 
+    public Proba() {
+    }
+
     @Override
     public String toString() {
         return "Proba{" +

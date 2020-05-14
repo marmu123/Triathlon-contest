@@ -4,6 +4,7 @@ import domain.Arbitru;
 import domain.Proba;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.stereotype.Component;
 import utils.TipProba;
 
 import java.sql.Connection;
@@ -13,7 +14,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-
+@Component
 public class JdbcRepositoryProba implements IRepository<Integer, Proba> {
     private JdbcUtils dbUtils;
     private static final Logger logger= LogManager.getLogger();
@@ -85,8 +86,25 @@ public class JdbcRepositoryProba implements IRepository<Integer, Proba> {
     }
 
     @Override
-    public void update(Integer id, Proba entity) {
-        //todo
+    public Proba update(Integer id, Proba entity) {
+        if(findOne(id)!=null) {
+            logger.traceEntry("updating proba with id: {}", id);
+            Connection con = dbUtils.getConnection();
+            try (PreparedStatement preStmt = con.prepareStatement("update Probe set numeArbitru=?,tipProba=? where id=?")) {
+                preStmt.setInt(3, id);
+                preStmt.setString(1, entity.getNumeArbitru());
+                preStmt.setString(2, entity.getTipProba().toString());
+                int result = preStmt.executeUpdate();
+                return new Proba(id,entity.getNumeArbitru(),entity.getTipProba());
+            } catch (SQLException ex) {
+                logger.error(ex);
+                System.out.println("Error DB " + ex);
+            }
+            logger.traceExit();
+        }
+        else
+           return save(new Proba(id,entity.getNumeArbitru(),entity.getTipProba()));
+        return null;
     }
 
     @Override

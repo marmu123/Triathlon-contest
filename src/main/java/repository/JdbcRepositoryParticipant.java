@@ -71,8 +71,8 @@ public class JdbcRepositoryParticipant implements FilterRepositoryParticipant
     }
 
     @Override
-    public void update(String s, Participant entity) {
-
+    public Participant update(String s, Participant entity) {
+        return null;
     }
 
     @Override
